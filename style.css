@@ -735,3 +735,119 @@ grid-template-columns:1fr;
 
 }
 
+/*=========================================
+        PRODUCTS PAGE HERO
+=========================================*/
+
+.products-hero{
+
+padding:160px 0 100px;
+
+background:linear-gradient(rgba(7,16,24,.92),rgba(7,16,24,.92)),
+url("images/hero/hero-banner.png") center/cover;
+
+text-align:center;
+
+}
+
+.products-hero h1{
+
+font-size:64px;
+
+font-weight:800;
+
+margin:25px 0;
+
+}
+
+.products-hero h1 span{
+
+color:#C9A227;
+
+}
+
+.products-hero p{
+
+max-width:750px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#d6d6d6;
+
+line-height:1.8;
+
+}
+
+/*=========================================
+        PRODUCT CATEGORIES
+=========================================*/
+
+.categories{
+
+background:#071018;
+
+}
+
+.categories-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:70px;
+
+}
+
+.category-card{
+
+background:#101b26;
+
+padding:35px;
+
+border-radius:22px;
+
+text-align:center;
+
+transition:.35s;
+
+border:1px solid rgba(255,255,255,.05);
+
+cursor:pointer;
+
+}
+
+.category-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#C9A227;
+
+box-shadow:0 20px 40px rgba(0,0,0,.45);
+
+}
+
+.category-card img{
+
+width:90px;
+
+height:90px;
+
+margin:auto;
+
+margin-bottom:20px;
+
+object-fit:contain;
+
+}
+
+.category-card h3{
+
+font-size:22px;
+
+font-weight:700;
+
+}
