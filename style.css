@@ -138,11 +138,9 @@ align-items:center;
 }
 
 .logo img{
-
-width:180px;
-
-height:auto;
-
+    width:70px;
+    height:70px;
+    object-fit:contain;
 }
 
 /* ==========================
@@ -284,43 +282,38 @@ width:150px;
 =========================================*/
 
 .hero{
-
-    min-height:100vh;
-
+    min-height:calc(100vh - 85px);
     display:flex;
-
     align-items:center;
+    overflow:hidden;
 
     background:
-    linear-gradient(rgba(7,16,24,.65),
-    rgba(7,16,24,.80)),
-    url("images/hero/hero-banner.png");
-
-    background-size:cover;
-
-    background-position:center;
-
-    background-repeat:no-repeat;
-
+    linear-gradient(rgba(5,12,18,.65),rgba(5,12,18,.82)),
+    url("images/hero/hero-banner.png") center center/cover no-repeat;
 }
 
 .hero-container{
 
-    display:flex;
+display:flex;
 
-    justify-content:space-between;
+align-items:center;
 
-    align-items:center;
+justify-content:space-between;
 
-    gap:60px;
+gap:80px;
+
+width:100%;
 
 }
-
 /* Left */
 
 .hero-content{
 
-    flex:1;
+flex:1;
+
+max-width:560px;
+
+z-index:2;
 
 }
 
@@ -388,23 +381,29 @@ width:150px;
 
 .hero-image{
 
-    flex:1;
+flex:1;
 
-    display:flex;
+display:flex;
 
-    justify-content:center;
+justify-content:flex-end;
+
+align-items:center;
 
 }
 
 .hero-image img{
 
-    width:100%;
+width:100%;
 
-    max-width:650px;
+max-width:780px;
 
-    animation:float 5s ease-in-out infinite;
+height:auto;
 
-    filter:drop-shadow(0 30px 40px rgba(0,0,0,.45));
+display:block;
+
+filter:drop-shadow(0 40px 70px rgba(0,0,0,.65));
+
+animation:float 6s ease-in-out infinite;
 
 }
 
