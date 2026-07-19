@@ -257,22 +257,33 @@ box-shadow:0 10px 25px rgba(201,162,39,.35);
 
 @media(max-width:992px){
 
-.nav-links{
+.menu-toggle{
+display:block;
+}
 
+.navbar{
+position:absolute;
+top:85px;
+left:0;
+width:100%;
+background:#071018;
 display:none;
+padding:25px 0;
+}
 
+.navbar.active{
+display:block;
+}
+
+.nav-links{
+display:flex;
+flex-direction:column;
+gap:22px;
+text-align:center;
 }
 
 .header-buttons{
-
 display:none;
-
-}
-
-.logo img{
-
-width:150px;
-
 }
 
 }
