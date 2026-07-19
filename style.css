@@ -14,10 +14,12 @@ html{
 }
 
 body{
+
     font-family:'Poppins',sans-serif;
-    background:#0b1220;
-    color:#ffffff;
+    background:var(--dark);
+    color:var(--white);
     overflow-x:hidden;
+
 }
 
 img{
@@ -37,4 +39,14 @@ ul{
     width:90%;
     max-width:1300px;
     margin:auto;
+
+}
+:root{
+
+    --primary:#D4AF37;
+    --secondary:#0F172A;
+    --dark:#05070D;
+    --white:#ffffff;
+    --gray:#A0AEC0;
+
 }
