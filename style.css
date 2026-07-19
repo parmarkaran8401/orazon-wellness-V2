@@ -1,52 +1,83 @@
-/* ===============================
-   Orazon Wellness V2
-   Premium Website
-================================= */
+/*=========================================
+    Orazon Wellness V2
+=========================================*/
+
+:root{
+
+--primary:#0d5c2d;
+--secondary:#c9a227;
+--dark:#071018;
+--light:#ffffff;
+--gray:#8d99ae;
+--bg:#091018;
+
+--radius:18px;
+
+--shadow:
+0 15px 35px rgba(0,0,0,.35);
+
+--transition:.35s;
+
+}
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
 
-    font-family:'Poppins',sans-serif;
-    background:var(--dark);
-    color:var(--white);
-    overflow-x:hidden;
+font-family:'Poppins',sans-serif;
+
+background:var(--bg);
+
+color:var(--light);
+
+overflow-x:hidden;
+
+line-height:1.6;
 
 }
 
 img{
-    max-width:100%;
-    display:block;
+
+display:block;
+
+max-width:100%;
+
 }
 
 a{
-    text-decoration:none;
+
+text-decoration:none;
+
+color:inherit;
+
 }
 
 ul{
-    list-style:none;
+
+list-style:none;
+
 }
 
 .container{
-    width:90%;
-    max-width:1300px;
-    margin:auto;
+
+width:90%;
+
+max-width:1300px;
+
+margin:auto;
 
 }
-:root{
 
-    --primary:#D4AF37;
-    --secondary:#0F172A;
-    --dark:#05070D;
-    --white:#ffffff;
-    --gray:#A0AEC0;
+section{
+
+padding:100px 0;
 
 }
