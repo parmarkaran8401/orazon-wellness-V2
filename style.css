@@ -1631,3 +1631,640 @@ transform:translateY(-12px) scale(1.02);
 filter:drop-shadow(0 15px 25px rgba(0,0,0,.35));
 
 }
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Forever Aloe Drinks | Orazon Wellness</title>
+
+<meta name="description"
+content="Premium Forever Aloe Drinks Collection">
+
+<link rel="icon"
+type="image/png"
+href="images/logo/favicon.png">
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- =========================
+HEADER
+========================= -->
+
+<header class="header">
+
+<div class="container">
+
+<a href="index.html" class="logo">
+
+<img src="images/logo/logo.png"
+alt="Orazon Wellness">
+
+</a>
+
+<nav class="navbar">
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="products.html" class="active">Products</a></li>
+
+<li><a href="business.html">Business</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="header-buttons">
+
+<a href="contact.html"
+class="btn-outline">
+
+Contact
+
+</a>
+
+<a href="https://wa.me/918401758698?text=Hi%20I%20want%20information%20about%20Forever%20Aloe%20Drinks"
+target="_blank"
+class="btn-primary">
+
+Order Now
+
+</a>
+
+</div>
+
+<div class="menu-toggle"
+id="menu-toggle">
+
+<i class="fas fa-bars"></i>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- =========================
+PAGE HERO
+========================= -->
+
+<section class="products-hero">
+
+<div class="container">
+
+<span class="hero-badge">
+
+🌿 Premium Forever Collection
+
+</span>
+
+<h1>
+
+Forever
+
+<span>Aloe Drinks</span>
+
+</h1>
+
+<p>
+
+Experience the world's most trusted Aloe Vera drinks from Forever Living Products.
+
+Support your health naturally with premium Aloe Vera nutrition.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- =========================
+PRODUCTS START
+========================= -->
+
+<section class="aloe-products">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>Forever Living</span>
+
+<h2>Premium Aloe Drinks Collection</h2>
+
+<p>
+
+Choose your favorite Forever Aloe Drink and order directly on WhatsApp.
+
+</p>
+
+</div>
+
+<div class="products-grid">
+
+<!-- ======================================
+PRODUCT 1
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">
+        Best Seller
+    </span>
+
+    <img src="images/products/aloe-drinks/aloe-vera-gel-ind.png"
+         alt="Forever Aloe Vera Gel India">
+
+    <h3>Forever Aloe Vera Gel (India)</h3>
+
+    <h4 class="product-price">
+        ₹2,547
+    </h4>
+
+    <p>
+
+        India's No.1 Premium Aloe Vera Drink made with stabilized Aloe Vera Gel.
+
+    </p>
+
+    <div class="product-info">
+
+        <h5>Benefits</h5>
+
+        <ul>
+
+            <li>✔ Supports Digestion</li>
+
+            <li>✔ Helps Immunity</li>
+
+            <li>✔ Natural Detox</li>
+
+            <li>✔ Daily Wellness</li>
+
+        </ul>
+
+    </div>
+
+    <div class="product-info">
+
+        <h5>How To Use</h5>
+
+        <p>
+
+            Drink 60–120 ml daily before meals.
+
+        </p>
+
+    </div>
+
+    <div class="product-buttons">
+
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Vera%20Gel%20India"
+
+           target="_blank"
+
+           class="btn-primary">
+
+           Order Now
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ======================================
+PRODUCT 2
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">
+
+        Premium
+
+    </span>
+
+    <img src="images/products/aloe-drinks/aloe-vera-gel-us.png"
+
+         alt="Forever Aloe Vera Gel USA">
+
+    <h3>Forever Aloe Vera Gel (USA)</h3>
+
+    <h4 class="product-price">
+
+        ₹2,996
+
+    </h4>
+
+    <p>
+
+        Premium USA Manufactured Aloe Vera Drink with high-quality stabilized Aloe Vera.
+
+    </p>
+
+    <div class="product-info">
+
+        <h5>Benefits</h5>
+
+        <ul>
+
+            <li>✔ Gut Health</li>
+
+            <li>✔ Boosts Immunity</li>
+
+            <li>✔ Healthy Skin</li>
+
+            <li>✔ Natural Nutrition</li>
+
+        </ul>
+
+    </div>
+
+    <div class="product-info">
+
+        <h5>How To Use</h5>
+
+        <p>
+
+            Drink 60–120 ml daily before meals.
+
+        </p>
+
+    </div>
+
+    <div class="product-buttons">
+
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Vera%20Gel%20USA"
+
+           target="_blank"
+
+           class="btn-primary">
+
+           Order Now
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ======================================
+PRODUCT 3
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">
+        Popular
+    </span>
+
+    <img src="images/products/aloe-drinks/aloe-berry-nectar.png"
+         alt="Forever Aloe Berry Nectar">
+
+    <h3>Forever Aloe Berry Nectar</h3>
+
+    <h4 class="product-price">
+        ₹2,748
+    </h4>
+
+    <p>
+
+        Aloe Vera blended with Apple & Cranberry Juice for delicious daily nutrition.
+
+    </p>
+
+    <div class="product-info">
+
+        <h5>Benefits</h5>
+
+        <ul>
+
+            <li>✔ Rich in Antioxidants</li>
+
+            <li>✔ Supports Digestion</li>
+
+            <li>✔ Helps Immunity</li>
+
+            <li>✔ Refreshing Taste</li>
+
+        </ul>
+
+    </div>
+
+    <div class="product-info">
+
+        <h5>How To Use</h5>
+
+        <p>
+
+            Drink 60–120 ml daily before meals.
+
+        </p>
+
+    </div>
+
+    <div class="product-buttons">
+
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Berry%20Nectar"
+           target="_blank"
+           class="btn-primary">
+
+           Order Now
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ======================================
+PRODUCT 4
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">
+        Best Taste
+    </span>
+
+    <img src="images/products/aloe-drinks/aloe-peaches.png"
+         alt="Forever Aloe Peaches">
+
+    <h3>Forever Aloe Peaches</h3>
+
+    <h4 class="product-price">
+        ₹2,748
+    </h4>
+
+    <p>
+
+        Delicious Peach Flavour with Premium Aloe Vera for everyday wellness.
+
+    </p>
+
+    <div class="product-info">
+
+        <h5>Benefits</h5>
+
+        <ul>
+
+            <li>✔ Healthy Digestion</li>
+
+            <li>✔ Energy Support</li>
+
+            <li>✔ Rich Nutrition</li>
+
+            <li>✔ Great Peach Taste</li>
+
+        </ul>
+
+    </div>
+
+    <div class="product-info">
+
+        <h5>How To Use</h5>
+
+        <p>
+
+            Drink 60–120 ml daily before meals.
+
+        </p>
+
+    </div>
+
+    <div class="product-buttons">
+
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Peaches"
+           target="_blank"
+           class="btn-primary">
+
+           Order Now
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ======================================
+PRODUCT 5
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">Fresh</span>
+
+    <img src="images/products/aloe-drinks/aloe-mango.png"
+         alt="Forever Aloe Mango">
+
+    <h3>Forever Aloe Mango</h3>
+
+    <h4 class="product-price">₹2,748</h4>
+
+    <p>
+        Delicious Mango flavoured Aloe Vera drink for daily wellness.
+    </p>
+
+    <div class="product-info">
+        <h5>Benefits</h5>
+        <ul>
+            <li>✔ Supports Digestion</li>
+            <li>✔ Rich in Vitamin C</li>
+            <li>✔ Boosts Immunity</li>
+            <li>✔ Great Mango Taste</li>
+        </ul>
+    </div>
+
+    <div class="product-info">
+        <h5>How To Use</h5>
+        <p>Drink 60–120 ml daily before meals.</p>
+    </div>
+
+    <div class="product-buttons">
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Mango"
+           target="_blank"
+           class="btn-primary">
+           Order Now
+        </a>
+    </div>
+
+</div>
+
+<!-- ======================================
+PRODUCT 6
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">Tropical</span>
+
+    <img src="images/products/aloe-drinks/aloe-pineapple.png"
+         alt="Forever Aloe Pineapple">
+
+    <h3>Forever Aloe Pineapple</h3>
+
+    <h4 class="product-price">₹2,748</h4>
+
+    <p>
+        Premium Aloe Vera blended with refreshing Pineapple juice.
+    </p>
+
+    <div class="product-info">
+        <h5>Benefits</h5>
+        <ul>
+            <li>✔ Healthy Digestion</li>
+            <li>✔ Natural Nutrition</li>
+            <li>✔ Supports Immunity</li>
+            <li>✔ Refreshing Taste</li>
+        </ul>
+    </div>
+
+    <div class="product-info">
+        <h5>How To Use</h5>
+        <p>Drink 60–120 ml daily before meals.</p>
+    </div>
+
+    <div class="product-buttons">
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Pineapple"
+           target="_blank"
+           class="btn-primary">
+           Order Now
+        </a>
+    </div>
+
+</div>
+
+<!-- ======================================
+PRODUCT 7
+====================================== -->
+
+<div class="product-card">
+
+    <span class="product-badge">Value Pack</span>
+
+    <img src="images/products/aloe-drinks/aloe-tripak-330ml.png"
+         alt="Forever Aloe Tripak 330ml">
+
+    <h3>Forever Aloe Tripak 330ml</h3>
+
+    <h4 class="product-price">₹2,319</h4>
+
+    <p>
+        Convenient 330ml Aloe Vera drinks pack for travel and daily use.
+    </p>
+
+    <div class="product-info">
+        <h5>Benefits</h5>
+        <ul>
+            <li>✔ Easy to Carry</li>
+            <li>✔ Daily Wellness</li>
+            <li>✔ Premium Aloe Vera</li>
+            <li>✔ Ready to Drink</li>
+        </ul>
+    </div>
+
+    <div class="product-info">
+        <h5>How To Use</h5>
+        <p>Drink one pack daily before meals.</p>
+    </div>
+
+    <div class="product-buttons">
+        <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Tripak%20330ml"
+           target="_blank"
+           class="btn-primary">
+           Order Now
+        </a>
+    </div>
+
+</div>
+
+</section>
+
+<!-- ======================================
+FOOTER
+====================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <h2>Orazon Wellness</h2>
+
+            <p>
+
+                Independent Forever Business Owner
+
+            </p>
+
+            <p>
+
+                Better Products • Better Life
+
+            </p>
+
+            <div class="footer-social">
+
+                <a href="https://wa.me/918401758698" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 Orazon Wellness. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
