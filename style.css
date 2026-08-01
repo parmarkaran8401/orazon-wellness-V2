@@ -1254,3 +1254,139 @@ grid-template-columns:1fr;
 }
 
 }
+
+/*=========================================
+        BUSINESS SECTION
+=========================================*/
+
+.business-section{
+
+background:#091018;
+
+}
+
+.business-container{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+gap:70px;
+
+}
+
+.business-image{
+
+flex:1;
+
+}
+
+.business-image img{
+
+width:100%;
+
+max-width:550px;
+
+margin:auto;
+
+filter:drop-shadow(0 25px 45px rgba(0,0,0,.45));
+
+}
+
+.business-content{
+
+flex:1;
+
+}
+
+.business-content h2{
+
+font-size:52px;
+
+font-weight:800;
+
+margin:20px 0;
+
+line-height:1.2;
+
+}
+
+.business-content h2 span{
+
+display:block;
+
+color:#c9a227;
+
+}
+
+.business-content p{
+
+color:#d4d4d4;
+
+font-size:17px;
+
+line-height:1.9;
+
+margin-bottom:30px;
+
+}
+
+.business-list{
+
+margin-bottom:35px;
+
+}
+
+.business-list li{
+
+margin:15px 0;
+
+font-size:18px;
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.business-list i{
+
+color:#c9a227;
+
+font-size:20px;
+
+}
+
+@media(max-width:992px){
+
+.business-container{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.business-list li{
+
+justify-content:center;
+
+}
+
+.business-image img{
+
+max-width:380px;
+
+}
+
+.business-content h2{
+
+font-size:40px;
+
+}
+
+}
