@@ -1170,3 +1170,87 @@ flex-direction:column;
 }
 
 }
+
+/*=========================================
+        WHY CHOOSE
+=========================================*/
+
+.why-choose{
+
+background:#071018;
+
+}
+
+.why-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.why-card{
+
+background:#111d29;
+
+padding:40px 30px;
+
+border-radius:22px;
+
+text-align:center;
+
+transition:.35s;
+
+border:1px solid rgba(255,255,255,.06);
+
+}
+
+.why-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#c9a227;
+
+box-shadow:0 20px 40px rgba(0,0,0,.4);
+
+}
+
+.why-card i{
+
+font-size:55px;
+
+color:#c9a227;
+
+margin-bottom:25px;
+
+}
+
+.why-card h3{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+}
+
+.why-card p{
+
+color:#d3d3d3;
+
+line-height:1.8;
+
+}
+
+@media(max-width:768px){
+
+.why-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
