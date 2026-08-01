@@ -995,3 +995,24 @@ target="_blank">
 Order Now
 
 </a>
+
+/* WhatsApp Button Animation */
+
+.btn-primary{
+transition:.35s;
+}
+
+.btn-primary:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(201,162,39,.35);
+}
+
+/* Product Image */
+
+.product-card img{
+transition:.4s;
+}
+
+.product-card:hover img{
+transform:scale(1.08);
+}
