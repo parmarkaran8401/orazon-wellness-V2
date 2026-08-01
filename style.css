@@ -1016,3 +1016,140 @@ transition:.4s;
 .product-card:hover img{
 transform:scale(1.08);
 }
+
+<!-- ======================================
+        FEATURED PRODUCTS
+====================================== -->
+
+<section class="featured-products">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>Our Best Products</span>
+
+            <h2>Featured Forever Products</h2>
+
+            <p>
+                Discover our premium Aloe Vera based health and wellness products.
+            </p>
+
+        </div>
+
+        <div class="products-grid">
+
+            <!-- Product 1 -->
+
+            <div class="product-card">
+
+                <img src="images/aloe-drinks/aloe-vera-gel.png" alt="Forever Aloe Vera Gel">
+
+                <span class="product-badge">
+                    Best Seller
+                </span>
+
+                <h3>Forever Aloe Vera Gel</h3>
+
+                <p>
+                    Supports digestion and immunity with stabilized Aloe Vera.
+                </p>
+
+                <div class="product-buttons">
+
+                    <a href="aloe-drinks.html"
+                        class="btn-outline">
+                        Details
+                    </a>
+
+                    <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Vera%20Gel"
+                        target="_blank"
+                        class="btn-primary">
+
+                        Order
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Product 2 -->
+
+            <div class="product-card">
+
+                <img src="images/aloe-drinks/aloe-berry-nectar.png" alt="Forever Aloe Berry Nectar">
+
+                <span class="product-badge">
+                    Popular
+                </span>
+
+                <h3>Forever Aloe Berry Nectar</h3>
+
+                <p>
+                    Aloe Vera with Apple & Cranberry for daily wellness.
+                </p>
+
+                <div class="product-buttons">
+
+                    <a href="aloe-drinks.html"
+                        class="btn-outline">
+
+                        Details
+
+                    </a>
+
+                    <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Berry%20Nectar"
+                        target="_blank"
+                        class="btn-primary">
+
+                        Order
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Product 3 -->
+
+            <div class="product-card">
+
+                <img src="images/aloe-drinks/aloe-peaches.png" alt="Forever Aloe Peaches">
+
+                <span class="product-badge">
+                    New
+                </span>
+
+                <h3>Forever Aloe Peaches</h3>
+
+                <p>
+                    Refreshing Aloe Vera drink with delicious peach flavour.
+                </p>
+
+                <div class="product-buttons">
+
+                    <a href="aloe-drinks.html"
+                        class="btn-outline">
+
+                        Details
+
+                    </a>
+
+                    <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Peaches"
+                        target="_blank"
+                        class="btn-primary">
+
+                        Order
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
