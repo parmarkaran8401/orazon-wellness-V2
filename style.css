@@ -546,3 +546,236 @@ max-width:320px;
 }
 
 }
+/*=========================================
+        PRODUCTS PAGE
+=========================================*/
+
+.products-hero{
+
+padding:160px 0 100px;
+
+text-align:center;
+
+background:
+linear-gradient(rgba(7,16,24,.88),rgba(7,16,24,.88)),
+url("images/hero/hero-banner.png");
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+}
+
+.products-hero h1{
+
+font-size:64px;
+
+font-weight:800;
+
+margin:25px 0;
+
+line-height:1.2;
+
+}
+
+.products-hero h1 span{
+
+display:block;
+
+color:var(--secondary);
+
+}
+
+.products-hero p{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#d7d7d7;
+
+line-height:1.8;
+
+}
+
+/*=========================================
+        SECTION TITLE
+=========================================*/
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-title h2{
+
+font-size:46px;
+
+font-weight:800;
+
+margin-bottom:15px;
+
+}
+
+.section-title p{
+
+font-size:18px;
+
+color:#cfcfcf;
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+/*=========================================
+        CATEGORIES
+=========================================*/
+
+.categories{
+
+background:#071018;
+
+}
+
+.categories-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+}
+
+.category-card{
+
+background:#111d29;
+
+padding:35px 25px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:1px solid rgba(255,255,255,.05);
+
+transition:.35s;
+
+cursor:pointer;
+
+}
+
+.category-card:hover{
+
+transform:translateY(-10px);
+
+border-color:var(--secondary);
+
+box-shadow:0 20px 40px rgba(0,0,0,.45);
+
+}
+
+.category-card img{
+
+width:90px;
+
+height:90px;
+
+margin:auto;
+
+object-fit:contain;
+
+margin-bottom:22px;
+
+}
+
+.category-card h3{
+
+font-size:22px;
+
+font-weight:700;
+
+}
+
+/*=========================================
+        PRODUCTS RESPONSIVE
+=========================================*/
+
+@media(max-width:992px){
+
+.products-hero{
+
+padding:140px 0 80px;
+
+}
+
+.products-hero h1{
+
+font-size:46px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.products-hero h1{
+
+font-size:36px;
+
+}
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+.categories-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:20px;
+
+}
+
+.category-card{
+
+padding:25px 15px;
+
+}
+
+.category-card img{
+
+width:70px;
+
+height:70px;
+
+}
+
+.category-card h3{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.categories-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
