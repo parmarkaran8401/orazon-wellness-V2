@@ -1017,139 +1017,156 @@ transition:.4s;
 transform:scale(1.08);
 }
 
-<!-- ======================================
+/*=========================================
         FEATURED PRODUCTS
-====================================== -->
+=========================================*/
 
-<section class="featured-products">
+.featured-products{
 
-    <div class="container">
+    background:#091018;
 
-        <div class="section-title">
+}
 
-            <span>Our Best Products</span>
+.featured-products .products-grid{
 
-            <h2>Featured Forever Products</h2>
+    display:grid;
 
-            <p>
-                Discover our premium Aloe Vera based health and wellness products.
-            </p>
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 
-        </div>
+    gap:35px;
 
-        <div class="products-grid">
+    margin-top:60px;
 
-            <!-- Product 1 -->
+}
 
-            <div class="product-card">
+.featured-products .product-card{
 
-                <img src="images/aloe-drinks/aloe-vera-gel.png" alt="Forever Aloe Vera Gel">
+    background:#111d29;
 
-                <span class="product-badge">
-                    Best Seller
-                </span>
+    border:1px solid rgba(255,255,255,.08);
 
-                <h3>Forever Aloe Vera Gel</h3>
+    border-radius:22px;
 
-                <p>
-                    Supports digestion and immunity with stabilized Aloe Vera.
-                </p>
+    padding:35px;
 
-                <div class="product-buttons">
+    text-align:center;
 
-                    <a href="aloe-drinks.html"
-                        class="btn-outline">
-                        Details
-                    </a>
+    transition:.35s;
 
-                    <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Vera%20Gel"
-                        target="_blank"
-                        class="btn-primary">
+    overflow:hidden;
 
-                        Order
+    position:relative;
 
-                    </a>
+}
 
-                </div>
+.featured-products .product-card:hover{
 
-            </div>
+    transform:translateY(-12px);
 
-            <!-- Product 2 -->
+    border-color:#c9a227;
 
-            <div class="product-card">
+    box-shadow:0 25px 50px rgba(0,0,0,.45);
 
-                <img src="images/aloe-drinks/aloe-berry-nectar.png" alt="Forever Aloe Berry Nectar">
+}
 
-                <span class="product-badge">
-                    Popular
-                </span>
+.featured-products .product-card img{
 
-                <h3>Forever Aloe Berry Nectar</h3>
+    width:220px;
 
-                <p>
-                    Aloe Vera with Apple & Cranberry for daily wellness.
-                </p>
+    height:220px;
 
-                <div class="product-buttons">
+    object-fit:contain;
 
-                    <a href="aloe-drinks.html"
-                        class="btn-outline">
+    margin:auto;
 
-                        Details
+    transition:.35s;
 
-                    </a>
+    margin-bottom:25px;
 
-                    <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Berry%20Nectar"
-                        target="_blank"
-                        class="btn-primary">
+}
 
-                        Order
+.featured-products .product-card:hover img{
 
-                    </a>
+    transform:scale(1.08);
 
-                </div>
+}
 
-            </div>
+.featured-products h3{
 
-            <!-- Product 3 -->
+    font-size:26px;
 
-            <div class="product-card">
+    margin:18px 0 12px;
 
-                <img src="images/aloe-drinks/aloe-peaches.png" alt="Forever Aloe Peaches">
+}
 
-                <span class="product-badge">
-                    New
-                </span>
+.featured-products p{
 
-                <h3>Forever Aloe Peaches</h3>
+    color:#d4d4d4;
 
-                <p>
-                    Refreshing Aloe Vera drink with delicious peach flavour.
-                </p>
+    line-height:1.8;
 
-                <div class="product-buttons">
+    margin-bottom:25px;
 
-                    <a href="aloe-drinks.html"
-                        class="btn-outline">
+}
 
-                        Details
+.featured-products .product-buttons{
 
-                    </a>
+    display:flex;
 
-                    <a href="https://wa.me/918401758698?text=Hi%20I%20want%20to%20order%20Forever%20Aloe%20Peaches"
-                        target="_blank"
-                        class="btn-primary">
+    gap:12px;
 
-                        Order
+}
 
-                    </a>
+.featured-products .btn-outline{
 
-                </div>
+    flex:1;
 
-            </div>
+    text-align:center;
 
-        </div>
+}
 
-    </div>
+.featured-products .btn-primary{
 
-</section>
+    flex:1;
+
+    text-align:center;
+
+}
+
+.featured-products .product-badge{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    background:#c9a227;
+
+    color:#071018;
+
+    padding:8px 16px;
+
+    border-radius:50px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+@media(max-width:768px){
+
+.featured-products .products-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.featured-products .product-buttons{
+
+flex-direction:column;
+
+}
+
+}
