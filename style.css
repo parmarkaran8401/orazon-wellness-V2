@@ -888,3 +888,8 @@ grid-template-columns:1fr;
 }
 
 }
+.category-card{
+text-decoration:none;
+color:#fff;
+display:block;
+}
